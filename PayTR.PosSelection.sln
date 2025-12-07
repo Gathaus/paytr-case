@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9EF7FD87-88AC-43F4-868D-35CB67054C70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayTR.PosSelection.Api", "src\PayTR.PosSelection.Api\PayTR.PosSelection.Api.csproj", "{929D180A-EE42-4764-B140-A45E0872FEBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayTR.PosSelection.Application", "src\PayTR.PosSelection.Application\PayTR.PosSelection.Application.csproj", "{4D310B85-2699-46B0-A04F-5531683D24E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayTR.PosSelection.Domain", "src\PayTR.PosSelection.Domain\PayTR.PosSelection.Domain.csproj", "{89CA35D8-7E39-4226-853A-553F4717E0F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayTR.PosSelection.Infrastructure", "src\PayTR.PosSelection.Infrastructure\PayTR.PosSelection.Infrastructure.csproj", "{C20C4EBD-25EE-42A3-AD1C-70BAA48F3B20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{929D180A-EE42-4764-B140-A45E0872FEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929D180A-EE42-4764-B140-A45E0872FEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929D180A-EE42-4764-B140-A45E0872FEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929D180A-EE42-4764-B140-A45E0872FEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D310B85-2699-46B0-A04F-5531683D24E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D310B85-2699-46B0-A04F-5531683D24E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D310B85-2699-46B0-A04F-5531683D24E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D310B85-2699-46B0-A04F-5531683D24E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89CA35D8-7E39-4226-853A-553F4717E0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CA35D8-7E39-4226-853A-553F4717E0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CA35D8-7E39-4226-853A-553F4717E0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CA35D8-7E39-4226-853A-553F4717E0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20C4EBD-25EE-42A3-AD1C-70BAA48F3B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20C4EBD-25EE-42A3-AD1C-70BAA48F3B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20C4EBD-25EE-42A3-AD1C-70BAA48F3B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20C4EBD-25EE-42A3-AD1C-70BAA48F3B20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{929D180A-EE42-4764-B140-A45E0872FEBF} = {9EF7FD87-88AC-43F4-868D-35CB67054C70}
+		{4D310B85-2699-46B0-A04F-5531683D24E3} = {9EF7FD87-88AC-43F4-868D-35CB67054C70}
+		{89CA35D8-7E39-4226-853A-553F4717E0F6} = {9EF7FD87-88AC-43F4-868D-35CB67054C70}
+		{C20C4EBD-25EE-42A3-AD1C-70BAA48F3B20} = {9EF7FD87-88AC-43F4-868D-35CB67054C70}
+	EndGlobalSection
+EndGlobal
